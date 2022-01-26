@@ -9,8 +9,7 @@ console.log(areaTriangle(9, 2));
 
 console.log("No 2");
 function lessThan100(num1, num2) {
-  var hasil = num1 + num2;
-  if (hasil > 100) {
+  if (num1 + num2 > 100) {
     console.log(true);
   } else {
     console.log(false);
@@ -23,9 +22,7 @@ lessThan100(3, 77);
 console.log("No 3");
 
 function comp(parms1, parms2) {
-  const param1 = parms1.length;
-  const param2 = parms2.length;
-  if (param1 === param2) {
+  if (parms1.length == parms2.length) {
     console.log(true);
   } else {
     console.log(false);
